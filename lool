@@ -1,0 +1,20 @@
+        local player = game.Players.RatatuiHelp
+        player.Chatted:connect(function(msg)
+        if msg == "uninvme" then
+        game.Players.RatatuiHelp.Character.Head.Transparency = 0
+        game.Players.RatatuiHelp.Character.LeftHand.Transparency = 0
+                game.Players.RatatuiHelp.Character.LeftLowerArm.Transparency = 0
+                game.Players.RatatuiHelp.Character.LeftUpperArm.Transparency = 0
+                game.Players.RatatuiHelp.Character.RightHand.Transparency = 0
+                game.Players.RatatuiHelp.Character.RightLowerArm.Transparency = 0
+                game.Players.RatatuiHelp.Character.RightUpperArm.Transparency = 0
+                game.Players.RatatuiHelp.Character.UpperTorso.Transparency = 0
+                game.Players.RatatuiHelp.Character.LeftFoot.Transparency = 0
+                game.Players.RatatuiHelp.Character.LeftLowerLeg.Transparency = 0
+                game.Players.RatatuiHelp.Character.LeftUpperLeg.Transparency = 0
+                game.Players.RatatuiHelp.Character.RightFoot.Transparency = 0
+                game.Players.RatatuiHelp.Character.RightLowerLeg.Transparency = 0
+                game.Players.RatatuiHelp.Character.RightUpperLeg.Transparency = 0
+                game.Players.RatatuiHelp.Character.LowerTorso.Transparency = 0
+    end
+end)
